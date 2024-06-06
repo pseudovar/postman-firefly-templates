@@ -21,8 +21,8 @@ templates['ImageGrid'] = template({"1":function(container,depth0,helpers,partial
         return undefined
     };
 
-  return ((stack1 = container.invokePartial(lookupProperty(partials,"src/partials/tailwind"),depth0,{"name":"src/partials/tailwind","data":data,"helpers":helpers,"partials":partials,"decorators":container.decorators})) != null ? stack1 : "")
-    + ((stack1 = container.invokePartial(lookupProperty(partials,"src/partials/header"),depth0,{"name":"src/partials/header","hash":{"title":"Firefly API Results"},"data":data,"helpers":helpers,"partials":partials,"decorators":container.decorators})) != null ? stack1 : "")
+  return ((stack1 = container.invokePartial(lookupProperty(partials,"partials/tailwind"),depth0,{"name":"partials/tailwind","data":data,"helpers":helpers,"partials":partials,"decorators":container.decorators})) != null ? stack1 : "")
+    + ((stack1 = container.invokePartial(lookupProperty(partials,"partials/header"),depth0,{"name":"partials/header","hash":{"title":"Firefly API Results"},"data":data,"helpers":helpers,"partials":partials,"decorators":container.decorators})) != null ? stack1 : "")
     + "\n<div class=\"grid grid-cols-1 gap-y-4 sm:grid-cols-2 sm:gap-x-6 sm:gap-y-10 lg:grid-cols-3 lg:gap-x-8 mb-8\">\n"
     + ((stack1 = lookupProperty(helpers,"each").call(depth0 != null ? depth0 : (container.nullContext || {}),(depth0 != null ? lookupProperty(depth0,"outputs") : depth0),{"name":"each","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":5,"column":0},"end":{"line":14,"column":9}}})) != null ? stack1 : "")
     + "</div>";
