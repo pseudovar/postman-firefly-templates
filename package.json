@@ -4,7 +4,7 @@
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "build": "handlebars src/ -f dist/templates.js"
+        "build": "node mergeHandlebars.js"
     },
     "author": "",
     "license": "ISC",
