@@ -1,0 +1,23 @@
+{
+    "version": "2.10.3",
+    "size": {
+        "width": 2048,
+        "height": 2048
+    },
+    "outputs": [
+        {
+            "seed": 1491436810,
+            "image": {
+                "id": "fb28adaf-ef9a-44f2-b454-cf1c5a66f81d",
+                "presignedUrl": "https://pre-signed-firefly-prod.s3.amazonaws.com/images/fb28adaf-ef9a-44f2-b454-cf1c5a66f81d?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDA3TX66CSNORXF4%2F20240606%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240606T003835Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=7c9426de8c4768b8d75563a074ec744092c89db7a46eecec10fa98091d970532"
+            }
+        },
+        {
+            "seed": 1558518870,
+            "image": {
+                "id": "e0794385-1ba7-4441-bc6b-0bad20a25d28",
+                "presignedUrl": "https://pre-signed-firefly-prod.s3.amazonaws.com/images/e0794385-1ba7-4441-bc6b-0bad20a25d28?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDA3TX66CSNORXF4%2F20240606%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240606T003835Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=738925ad947396156baa01de29f86e3661cef4fe5a89fc7c1337d843df1e864b"
+            }
+        }
+    ]
+}
