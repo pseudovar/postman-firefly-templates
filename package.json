@@ -1,0 +1,15 @@
+{
+    "name": "postmanfireflytemplates",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "handlebars src/ -f dist/templates.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "handlebars": "^4.7.8"
+    }
+}
